@@ -27,7 +27,7 @@ The dataset is manually created and checked for duplicates (none found).
 ---
 
 ## Notebook 1: Statistical Analysis, Classification, and Health Scoring  
-**File:** `Diabetic_Ulcer_1.ipynb`
+**File:** `Diabetic-Ulcer-1.ipynb`
 
 This notebook focuses on **statistical validation, visualization, classification, and health score generation**.
 
@@ -134,8 +134,8 @@ Both approaches clearly differentiate healthy and unhealthy samples.
 
 ---
 
-## Notebook 2: Dimensionality Reduction and Clustering  
-**File:** `Diabetic_Ulcer_2.ipynb`
+## Notebook 2: Visualization and Clustering  
+**File:** `Diabetic-Ulcer-2.ipynb`
 
 This notebook focuses on **unsupervised learning and multivariate visualization**.
 
@@ -180,12 +180,24 @@ This notebook focuses on **unsupervised learning and multivariate visualization*
 
 ### 5. Clustering Analysis
 
-- K-Means clustering applied
-- Analysis performed for:
+Unsupervised clustering is performed to identify natural groupings in the data without using class labels.
+
+The following clustering models are used:
+
+- K-Means Clustering
+- Hierarchical (Agglomerative) Clustering
+- DBSCAN
+- Gaussian Mixture Model (GMM)
+
+For K-Means clustering:
+- Analysis is performed for:
   - 2 clusters
   - 3 clusters
+
+Across all clustering methods:
 - Cluster assignments align closely with biological group labels
-- Confirms natural structure in the data
+- Clear separation is observed between healthy and unhealthy samples
+- The results confirm the presence of a strong natural structure in the data
 
 ---
 
@@ -201,8 +213,8 @@ This notebook focuses on **unsupervised learning and multivariate visualization*
 - Matplotlib
 - Seaborn
 - Plotly
-- Google Colab / Jupyter Notebook
-
+- Google Colab
+  
 ---
 
 ## Repository Structure
@@ -211,5 +223,6 @@ Diabetic-foot-ulcer/
 │
 ├── Diabetic_Ulcer_1.ipynb   # Statistics, classification & health scoring
 ├── Diabetic_Ulcer_2.ipynb   # PCA, clustering & visualization
-├── README.md               # Project documentation
+├── README.md                # Project documentation
+├── requirements.txt         # Required version
 ```
