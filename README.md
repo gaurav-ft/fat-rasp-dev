@@ -1,4 +1,4 @@
-# Diabetic Foot Ulcer Data Analysis
+# Diabetic Foot Ulcer: Statistical and Machine Learning Analysis
 
 This repository contains statistical analysis, machine learning classification, and unsupervised analysis of diabetic foot ulcer–related biological data.  
 All methods and results documented here are strictly based on the work implemented in the Google Colab notebooks provided in this repository.
