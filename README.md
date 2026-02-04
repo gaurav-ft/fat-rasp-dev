@@ -209,6 +209,6 @@ This notebook focuses on **unsupervised learning and multivariate visualization*
 
 Diabetic-foot-ulcer/
 │
-├── Diabetic_Ulcer_1.ipynb # Statistics, classification & health scoring
-├── Diabetic_Ulcer_2.ipynb # PCA, clustering & visualization
-├── README.md # Project documentation
+├── Diabetic_Ulcer_1.ipynb   # Statistics, classification & health scoring
+├── Diabetic_Ulcer_2.ipynb   # PCA, clustering & visualization
+├── README.md               # Project documentation
