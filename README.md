@@ -189,11 +189,6 @@ The following clustering models are used:
 - DBSCAN
 - Gaussian Mixture Model (GMM)
 
-For K-Means clustering:
-- Analysis is performed for:
-  - 2 clusters
-  - 3 clusters
-
 Across all clustering methods:
 - Cluster assignments align closely with biological group labels
 - Clear separation is observed between healthy and unhealthy samples
