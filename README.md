@@ -221,8 +221,8 @@ Across all clustering methods:
 ```
 Diabetic-foot-ulcer/
 │
-├── Diabetic_Ulcer_1.ipynb   # Statistics, classification & health scoring
-├── Diabetic_Ulcer_2.ipynb   # PCA, clustering & visualization
+├── Diabetic-Ulcer-1.ipynb   # Statistics, classification & health scoring
+├── Diabetic-Ulcer-2.ipynb   # PCA, clustering & visualization
 ├── README.md                # Project documentation
 ├── requirements.txt         # Required version
 ```
