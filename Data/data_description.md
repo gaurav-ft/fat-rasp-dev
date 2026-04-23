@@ -1,7 +1,8 @@
 ## Dataset Summary
 
-- **Total Samples:** ~84 
+- **Total Samples:** ~84  
 - **Features:** 7 input features + 1 target  
+- **Data Type:** Numerical (continuous)  
 
 - **Input Features:**
   - Permeability  
