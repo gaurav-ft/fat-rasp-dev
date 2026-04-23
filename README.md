@@ -27,7 +27,7 @@ The dataset is manually created and checked for duplicates (none found).
 ---
 
 ## Notebook 1: Statistical Analysis, Classification, and Health Scoring  
-**File:** `Diabetic-Ulcer-1.ipynb`
+**File:** `fat-rasp-1.ipynb`
 
 This notebook focuses on **statistical validation, visualization, classification, and health score generation**.
 
@@ -135,7 +135,7 @@ Both approaches clearly differentiate healthy and unhealthy samples.
 ---
 
 ## Notebook 2: Visualization and Clustering  
-**File:** `Diabetic-Ulcer-2.ipynb`
+**File:** `fat-rasp-2.ipynb`
 
 This notebook focuses on **unsupervised learning and multivariate visualization**.
 
