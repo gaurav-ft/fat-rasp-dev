@@ -214,10 +214,46 @@ Across all clustering methods:
 
 ## Repository Structure
 ```
-Diabetic-foot-ulcer/
+fat-rasp-dev/
 │
-├── Diabetic-Ulcer-1.ipynb   # Statistics, classification & health scoring
-├── Diabetic-Ulcer-2.ipynb   # PCA, clustering & visualization
-├── README.md                # Project documentation
-├── requirements.txt         # Required version
+├── Data/                          # Dataset files
+│   ├── train_data.csv
+│   └── data description
+│
+├── fat-rasp-scrip-old/            # Old model scripts
+│   ├── models/                    # Saved models (old)
+│   │   ├── GMM_model.pkl
+│   │   ├── elasticnet_logistic_model.pkl
+│   │   ├── elasticnet_logistic_pca_model.pkl
+│   │   ├── isolation_forest_model.pkl
+│   │   ├── k_means_model.pkl
+│   │   ├── lasso_logistic_model.pkl
+│   │   ├── lasso_logistic_pca_model.pkl
+│   │   ├── ridge_logistic_model.pkl
+│   │   ├── ridge_logistic_pca_model.pkl
+│   │   ├── svm_model.pkl
+│   │   └── svm_pca_model.pkl
+│   │
+│   ├── predict_model.ipynb
+│   └── train_model.ipynb
+│
+├── fat-rasp-script1/              # Latest working scripts
+│   ├── models/                    # Final trained models
+│   │   ├── Health_Score_EW.pkl
+│   │   ├── elasticnet_logistic_model.pkl
+│   │   ├── isolation_forest_model.pkl
+│   │   ├── lasso_logistic_model.pkl
+│   │   ├── logistic_model.pkl
+│   │   ├── ridge_logistic_model.pkl
+│   │   └── train_data_summary.pkl
+│   │
+│   ├── predict.ipynb
+│   └── train.ipynb
+│
+├── fat-rasp-1.ipynb               # Main analysis notebook 1
+├── fat-rasp-2.ipynb               # Main analysis notebook 2
+├── pipeline.ipynb                # End-to-end pipeline
+│
+├── README.md
+└── requirements.txt
 ```
