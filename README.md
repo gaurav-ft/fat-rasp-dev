@@ -7,7 +7,7 @@ All methods and results documented here are strictly based on the work implement
 
 ## Dataset Description
 
-The dataset contains **14 samples** divided into two groups:
+The dataset contains **84 samples** divided into two groups:
 
 - **Group 1 (Healthy / Good = 1)**
 - **Group 0 (Unhealthy / Diseased = 0)**
